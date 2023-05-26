@@ -15,6 +15,7 @@ const App = () => {
     const getTasks = async () => {
       const tasksFromServer = await fetchTasks()
       setTasks(tasksFromServer)
+      
     }
 
     getTasks()
